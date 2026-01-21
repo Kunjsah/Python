@@ -1,0 +1,14 @@
+# 1. Check the status of your repository
+git status
+
+# 2. Stage all changes (or replace . with specific files)
+git add .
+
+# 3. Commit your changes with a message
+git commit -m "Your commit message here"
+
+# 4. Push changes to GitHub (replace 'main' with your branch name if different)
+git push origin main
+
+# 5. If pushing a new branch for the first time
+git push -u origin branch-name
